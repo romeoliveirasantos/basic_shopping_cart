@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+  display: flex;  
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  border-bottom: 2px wheat solid;  
+}
+
+.feedbackAddItem {
+  position: absolute;
+  z-index: 20;  
+  margin-top: 3%;
+  margin-left: 43%;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: greenyellow;
+}
+
+.itemsCarrinho {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 40px; /* Ajuste para que fique logo abaixo do ícone */
+  margin-left: -210px; /* Ajuste para centralizar */
+  width: 240px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+.clearButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 20px;
+  background-color: red;
+}
+
+.items {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  z-index: 10;
+  margin-top: -40px;
+  margin-left: 26px;
+  font-size: 20px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+}
+
+.store {  
+  margin-right: 17px;
+  height: 30px;
+  width: 30px;
+  filter: invert();
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100%;
+  width: 100%;  
+  padding: 10px;
+}
+
+main div {
+  background-color: #f0f0f0; /* Apenas para visualização */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: red;
+  color: wheat;
+  border: none;
+  height: 40px;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
