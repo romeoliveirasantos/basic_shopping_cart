@@ -1,6 +1,6 @@
 # Basic Shopping Cart
 
-![Basic Shopping Cart](assets/carrinho-de-compras.png)
+![Basic Shopping Cart](assets/3225209.png)
 
 ## Descrição
 
